@@ -1,0 +1,30 @@
+@font-face {
+    font-family: 'Bebas';
+    src: url('../font_types/BebasNeue-Regular.ttf') format('truetype');
+}
+html, body {
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+nav, .titulo, footer {
+    font-family:'Bebas', sans-serif;
+}
+p{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+
+a {
+    color: inherit !important; /* Hereda el color del padre y fuerza la aplicación */
+    text-decoration: none !important; /* Elimina el subrayado */
+  }
+
+.text-custom-arriba{
+    color:#0dcaf0;
+ }
+
+  
